@@ -1,1 +1,17 @@
-ingredient_1 = input
+#The names of three ingredients for a salad recipe
+ingredient_1 = (input("What is your first ingredient?"))
+ounces_1 = float(input(f"Ounces of {ingredient_1}: "))
+ingredient_2 = (input("What is your second ingredient?"))
+ounces_2 = float(input(f"Ounces of {ingredient_2}: "))
+ingredient_3 = (input("What is your third ingredient?"))
+ounces_3 = float(input(f"Ounces of {ingredient_3}: "))
+
+#The number of ounces of each ingredient required for one serving
+servings = float(input("How many servings do you want?"))
+
+print(f"Total ounces of {ingredient_1}: {ounces_1 *servings}")
+print(f"Total ounces of {ingredient_2}: {ounces_2 *servings}")
+print(f"Total ounces of {ingredient_3}: {ounces_3 *servings}")
+
+#The number of servings desired
+print()
